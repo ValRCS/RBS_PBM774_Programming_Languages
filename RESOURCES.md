@@ -1,6 +1,6 @@
 # RESOURCES
 
-This document lists authoritative resources for learning and referencing the topics and programming languages covered in the course.
+This document lists mostly authorative resources for learning and referencing the topics and programming languages covered in the course.
 
 ## 1. BNF (and EBNF)
 - **[Wikipedia: BNF](https://en.wikipedia.org/wiki/Backus–Naur_form)**  
@@ -9,26 +9,13 @@ This document lists authoritative resources for learning and referencing the top
   Official ISO documentation for EBNF syntax - kind of dry..
 - **[ANTLR Documentation](https://github.com/antlr/antlr4/blob/master/doc/grammars.md)**  
   A detailed guide on writing grammars in ANTLR, including BNF and EBNF syntax.
-- **[BNF and EBNF Examples - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/BNF_and_EBNF)**  
-  Clear explanations and examples of BNF and EBNF used in HTTP specifications.
-
-- **[A Guide to Writing EBNF Grammars](https://lucidchart.com/blog/ebnf-tutorial)**  
-  A practical tutorial on creating and understanding EBNF grammars.
 
 - **[Compiler Construction - BNF Overview by TutorialsPoint](https://www.tutorialspoint.com/compiler_design/compiler_design_syntax_analysis.htm)**  
   An introductory article that includes examples of BNF and its applications in compilers.
 
-- **[CS Lecture Notes on Grammar Notations](https://www.cs.princeton.edu/courses/archive/spring2020/cos320/ebnf.html)**  
-  Lecture notes from Princeton University covering BNF, EBNF, and their use in formal grammar representation.
-
 - **[RFC 5234: Augmented BNF for Syntax Specifications](https://www.rfc-editor.org/rfc/rfc5234)**  
   The official document defining augmented BNF (ABNF) used in internet protocol standards.
 
-- **[Visualizing Grammars with Railroad Diagrams](https://www.bottlecaps.de/rr-tools/)**  
-  Tools for visualizing BNF and EBNF grammars as railroad diagrams, which can aid in understanding complex syntax.
-
-- **[Syntax Definition in Programming Languages](https://www.cs.cmu.edu/~clo/readings/ebnf.pdf)**  
-  A PDF document providing a comprehensive overview of syntax definition techniques, including EBNF.
 ---
 
 ## 2. Clojure (and Lisp in general)
