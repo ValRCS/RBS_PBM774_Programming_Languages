@@ -1,0 +1,21 @@
+    1  java --version
+    2  curl -L -O https://github.com/clojure/brew-install/releases/latest/download/linux-install.sh
+    3  ls -l
+    4  chmod +x linux-install.sh
+    5  man chmod
+    6  ls -l
+    7  sudo ./linux-install.sh
+    8  clj -h
+    9  clojure -h
+   10  clojure --version
+   11  sudo apt get install rlwrap
+   12  sudo apt-get install rlwrap
+   13  rlwrap
+   14  sudo apt install rlwrap -y
+   15  sudo apt get update
+   16  sudo atp update
+   17  sudo apt update
+   18  sudo apt install rlwrap -y
+   19  rlwrap
+   20  clj -h
+   21  history > clojure_installation.txt
