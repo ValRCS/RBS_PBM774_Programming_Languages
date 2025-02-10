@@ -29,3 +29,14 @@ ancestor(A, D) :-
 ancestor(A, D) :- 
     parent(A, X),       % A is a parent of X
     ancestor(X, D).     % X is an ancestor of D
+
+% Aunt/Uncle relationship
+aunt_or_uncle(AU, N) :- 
+    sibling(AU, P),     % AU is the sibling of P
+    parent(P, N).       % P is the parent of N
+
+% Cousin relationship
+cousin(C, N) :- 
+    parent(PC, C),      % PC is the parent of C
+    parent(PN, N),      % PN is the parent of N
+    sibling(PC, PN).    % PC and PN are siblings
