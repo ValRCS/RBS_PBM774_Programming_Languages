@@ -1,0 +1,4 @@
+So this line is about C language
+This line is about Python
+This is about Prolog
+And this is about ice cream
