@@ -29,3 +29,13 @@ LIMIT 1)
 
 -- I saw the murder happen, and I recognized the killer from my gym when I was working out last week on January the 9th.
 
+
+SELECT * FROM get_fit_now_member
+WHERE id LIKE '48Z%'
+AND
+membership_status = 'gold'
+
+-- 48Z7A,"28819","Joe Germuska","20160305","gold"
+-- 48Z55,"67318","Jeremy Bowers","20160101","gold"
+
+
