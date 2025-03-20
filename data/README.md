@@ -1,6 +1,6 @@
 # Data
 
-## Murder Myster Database
+## Murder Mystery Database
 
 Source: 
 * https://github.com/NUKnightLab/sql-mysteries
