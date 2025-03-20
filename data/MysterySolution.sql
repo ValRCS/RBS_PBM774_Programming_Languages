@@ -67,6 +67,16 @@ AND d.hair_color = 'red'
 -- 90700,"Regina George","291182","332","Maple Ave","337169072","291182","65","66","blue","red","female","08CM64","Tesla","Model S"
 -- 99716,"Miranda Priestly","202298","1883","Golden Ave","987756388","202298","68","66","green","red","female","500123","Tesla","Model S"
 
+SELECT * FROM facebook_event_checkin
+WHERE event_name LIKE '%Symphony%'
+AND date >= 20171201 AND date <= 20171231
+AND person_id = 99716
+
+-- Instead of checking the 3 possible suspects one by onecrime_scene_report
+-- We could have used GROUP BY person_id and counted how many times they attended
+-- we could have also then created a view for this which would be a custom tablecrime_scene_report
+-- TODO for students - group by persons and order by attendance optionally filtering for 3 or more attendances
+
 
 
 
