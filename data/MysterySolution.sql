@@ -38,4 +38,16 @@ membership_status = 'gold'
 -- 48Z7A,"28819","Joe Germuska","20160305","gold"
 -- 48Z55,"67318","Jeremy Bowers","20160101","gold"
 
+SELECT * FROM get_fit_now_member gf
+JOIN
+person p
+ON gf.person_id = p.id
+JOIN drivers_license d
+ON p.license_id = d.id
+WHERE gf.id LIKE '48Z%'
+AND
+gf.membership_status = 'gold'
+
+-- 48Z55,"67318","Jeremy Bowers","20160101","gold","67318","Jeremy Bowers","423327","530","Washington Pl, Apt 3A","871539279","423327","30","70","brown","brown","male","0H42W2","Chevrolet","Spark LS"
+
 
