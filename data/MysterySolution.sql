@@ -50,4 +50,24 @@ gf.membership_status = 'gold'
 
 -- 48Z55,"67318","Jeremy Bowers","20160101","gold","67318","Jeremy Bowers","423327","530","Washington Pl, Apt 3A","871539279","423327","30","70","brown","brown","male","0H42W2","Chevrolet","Spark LS"
 
+SELECT * FROM interview
+WHERE person_id = 67318
+
+-- I was hired by a woman with a lot of money. I don't know her name but I know she's around 5'5" (65") or 5'7" (67"). She has red hair and she drives a Tesla Model S. I know that she attended the SQL Symphony Concert 3 times in December 2017.
+
+SELECT * FROM person p
+JOIN drivers_license d
+ON p.license_id = d.id
+WHERE d.gender = 'female'
+AND d.car_make = 'Tesla'
+AND d.car_model = 'Model S'
+AND d.hair_color = 'red'
+
+-- 78881,"Red Korb","918773","107","Camerata Dr","961388910","918773","48","65","black","red","female","917UU3","Tesla","Model S"
+-- 90700,"Regina George","291182","332","Maple Ave","337169072","291182","65","66","blue","red","female","08CM64","Tesla","Model S"
+-- 99716,"Miranda Priestly","202298","1883","Golden Ave","987756388","202298","68","66","green","red","female","500123","Tesla","Model S"
+
+
+
+
 
