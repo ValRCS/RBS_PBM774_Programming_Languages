@@ -53,3 +53,25 @@ From: https://go.dev/doc/devel/release
 * Documentation
 * Code formatting
 
+## Go's usage
+
+Go is used for:
+
+* Web servers
+* Command-line tools
+* Desktop applications to some extent
+* Cloud services
+* Networking
+* Databases
+* Machine learning a little bit
+* Embedded systems
+* Mobile applications a little bit
+* WebAssembly
+* Games a little bit
+* Audio and video processing a little bit
+* Cryptography
+* Blockchain
+* DevOps
+* Testing
+* Automation
+* Data processing
