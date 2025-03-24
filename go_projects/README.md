@@ -75,3 +75,24 @@ Go is used for:
 * Testing
 * Automation
 * Data processing
+
+## Running and Building Go programs
+
+### Running Go programs
+
+To run a Go program, you can use the `go run` command followed by the name of the file you want to run.
+
+```bash
+go run main.go
+```
+
+### Building Go programs
+
+To build a Go program, you can use the `go build` command followed by the name of the file you want to build.
+
+```bash
+go build main.go
+```
+ This will build a binary file with the same name as the file you built in this case `main`.
+
+ This binary can be run on any machine that has the same computer architecture as the one you built it on.
